@@ -23,7 +23,7 @@ proxies:
   - {name: 尼日利亚动态, server: proxy4.miyaip.com, port: 10004, username: 1b7b34cbmiyaipb76_g-ng_f-ff15_sid-yFTGmhVjPrK_l-120_sc-0, password: 1k7g3jkssfe8s, type: socks5, skip-cert-verify: false, udp: true}
   - {name: 土耳其动态, server: proxy.soax.com, port: 9150, username: JfTvHKMoGU60MLxq, password: wifi;tr;;;, type: socks5, skip-cert-verify: false, udp: true}
   - {name: L2港HK41, server: v41.topman8846.cc, port: 41341, uuid: f97053da-6cfe-3e69-816a-93fd9417ed8b, alterId: 0, type: vmess, cipher: auto, udp: true, servername: v41.topman8846.cc, tls: true}
-  - {name: 港HK44, server: v41.topman8846.cc, port: 41344, uuid: f97053da-6cfe-3e69-816a-93fd9417ed8b, alterId: 0, type: vmess, cipher: auto, udp: true, servername: v41.topman8846.cc, tls: true}
+  - {name: 港HK44, server: v44.topman8846.cc, port: 41344, uuid: f97053da-6cfe-3e69-816a-93fd9417ed8b, alterId: 0, type: vmess, cipher: auto, udp: true, servername: v41.topman8846.cc, tls: true}
 
 proxy-groups:
   - name: Googleplay
