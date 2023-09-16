@@ -16,30 +16,36 @@ dns:
     - tls://dns.google:853
 proxies:
   - {name: 🇭🇰 香港 01丨1x HK, server: 0gr4uqmtt8y41hcjzgazdrpjt.ourdvssss.com, port: 12022, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: c776aba2376c.microsoft.com}}
-  - {name: 🇭🇰 香港 02丨1x HK, server: 0gr4uqmtt8y41hcjzgazdrpjt.ourdvssss.com, port: 12023, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: c776aba2376c.microsoft.com}}
+  - {name: 土耳其测试, server: 43.153.188.90, port: 11332, username: vdgfhrt_area-TR_session-rsty3y67t_life-30, password:  52dr845d2r, type: socks5, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港 03丨1x HK, server: 0gr4uqmtt8y41hcjzgazdrpjt.ourdvssss.com, port: 12024, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: c776aba2376c.microsoft.com}}
-  - {name: 土耳其1, server: proxy.smartproxycn.com, port: 1000, username: vdgfhrt_area-TR_session-rsty3y67t_life-30, password: zhou176, type: socks5, skip-cert-verify: false, udp: true}
-  - {name: 尼日利亚动态1, server: proxy.smartproxycn.com, port: 1000, username: zhou176_area-NG_state-lagos_session-zhou_life-30, password: zhou176, type: socks5, skip-cert-verify: false, udp: true}
+  - {name: 尼日利亚动态1, server: 43.153.188.90, port: 44541, username: zhou176_area-NG_state-lagos_session-zhou_life-30, password: zhou176, type: socks5, skip-cert-verify: false, udp: true}
+  - {name: 土耳其动态3, server: 52.195.211.250, port: 11191, username: 1b7b34cbmiyaipb76_g-tr_f-ff15_sid-gEnT9MlEGGc_l-120_sc-0, password: 1k7g3jkssfe8s, type: socks5, skip-cert-verify: false, udp: true}
+  - {name: 尼日利亚4, server: 43.153.188.90, port: 30821, username: 1b7b34cbmiyaipb76_g-ng_f-ff9_sid-gwRH8SwtBX5_l-30_sc-1, password: 1g7g3ggggg, type: socks5, skip-cert-verify: false, udp: true}
   - {name: 尼日利亚动态, server: proxy4.miyaip.com, port: 10004, username: 1b7b34cbmiyaipb76_g-ng_f-ff15_sid-yFTGmhVjPrK_l-120_sc-0, password: 1k7g3jkssfe8s, type: socks5, skip-cert-verify: false, udp: true}
   - {name: 土耳其动态, server: proxy.soax.com, port: 9150, username: JfTvHKMoGU60MLxq, password: wifi;tr;;;, type: socks5, skip-cert-verify: false, udp: true}
+  - {name: 加纳动态, server: proxy1.miyaip.com, port: 10004, username: 1b7b34cbmiyaipb76_g-gh_f-ff15_sid-gT1Qy777W6B_l-30_sc-0, password: 1k7g3jkssfe8s, type: socks5, skip-cert-verify: false, udp: true}
+  - {name: 加纳动态1, server: proxy.soax.com, port: 9000, username: JfTvHKMoGU60MLxq, password: wifi;gh;;;, type: socks5, skip-cert-verify: false, udp: true}
   - {name: L2港HK41, server: v41.topman8846.cc, port: 41341, uuid: f97053da-6cfe-3e69-816a-93fd9417ed8b, alterId: 0, type: vmess, cipher: auto, udp: true, servername: v41.topman8846.cc, tls: true}
-  - {name: 港HK44, server: v44.topman8846.cc, port: 41344, uuid: f97053da-6cfe-3e69-816a-93fd9417ed8b, alterId: 0, type: vmess, cipher: auto, udp: true, servername: v41.topman8846.cc, tls: true}
-
+  - {name: 港HK44, server: v44.topman8846.cc, port: 41344, uuid: f97053da-6cfe-3e69-816a-93fd9417ed8b, alterId: 0, type: vmess, cipher: auto, udp: true, servername: v44.topman8846.cc, tls: true}
+  - {name: 港HK42, server: v42.topman8846.cc, port: 41342, uuid: f97053da-6cfe-3e69-816a-93fd9417ed8b, alterId: 0, type: vmess, cipher: auto, udp: true, servername: v42.topman8846.cc, tls: true}
 proxy-groups:
   - name: Googleplay
     type: select
     proxies:
-      - 土耳其动态
+      - 土耳其测试
       - 尼日利亚动态
       - 尼日利亚动态1
-
-
-
+      - 土耳其动态3
+      - 尼日利亚4
+      - 尼日利亚动态
+      - 土耳其动态
+      - 加纳动态
+      - 加纳动态1
   - name: Proxies
     type: select
     proxies:
       - 🇭🇰 香港 01丨1x HK
-      - 🇭🇰 香港 02丨1x HK
+      - 港HK42
       - 🇭🇰 香港 03丨1x HK
       - L2港HK41
       - 港HK44
