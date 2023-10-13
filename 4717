@@ -45,6 +45,8 @@ proxy-groups:
       - 加纳动态
       - 加纳动态1
       - 加纳动态2
+      - 埃及1
+      - 埃及2
   - name: Proxies
     type: select
     proxies:
