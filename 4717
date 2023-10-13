@@ -29,6 +29,8 @@ proxies:
   - {name: 港HK44, server: v44.topman8846.cc, port: 41344, uuid: f97053da-6cfe-3e69-816a-93fd9417ed8b, alterId: 0, type: vmess, cipher: auto, udp: true, servername: v44.topman8846.cc, tls: true}
   - {name: 港HK42, server: v42.topman8846.cc, port: 41342, uuid: f97053da-6cfe-3e69-816a-93fd9417ed8b, alterId: 0, type: vmess, cipher: auto, udp: true, servername: v42.topman8846.cc, tls: true}
   - {name: 加纳动态2, server: 52.195.211.250, port: 39209, username: user-rox8433966-region-gh-sessid-ghhMBfBNYT-sesstime-30-keep-true, password: AA112211, type: socks5, skip-cert-verify: false, udp: true}
+  - {name: 埃及1, server: 52.195.211.250, port: 57025, username: 1b7b34cbmiyaipb76_g-eg_f-ff15_sid-gm6tHewyP63_l-30_sc-0, password: 1k7g3jkssfe8s, type: socks5, skip-cert-verify: false, udp: true}
+  - {name: 埃及2, server: 52.195.211.250, port: 48436, username: 1b7b34cbmiyaipb76_g-eg_f-ff9_sid-yp9ctd0yAOz_l-30_sc-1, password: 1g7g3ggggg, type: socks5, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: Googleplay
     type: select
