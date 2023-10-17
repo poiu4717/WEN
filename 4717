@@ -32,6 +32,7 @@ proxies:
   - {name: 埃及1, server: 52.195.211.250, port: 57025, username: 1b7b34cbmiyaipb76_g-eg_f-ff15_sid-gm6tHewyP63_l-30_sc-0, password: 1k7g3jkssfe8s, type: socks5, skip-cert-verify: false, udp: true}
   - {name: 埃及2, server: 52.195.211.250, port: 48436, username: 1b7b34cbmiyaipb76_g-eg_f-ff9_sid-yp9ctd0yAOz_l-30_sc-1, password: 1g7g3ggggg, type: socks5, skip-cert-verify: false, udp: true}
   - {name: 922, server: 192.168.31.93, port: 30000,  type: socks5, skip-cert-verify: false, udp: true}
+  - {name: 香港自建节点, server: 18.162.153.157, port: 46151, username: gJI3Ms4Hts, password: GROqb2LF6j, type: socks5, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: Googleplay
     type: select
@@ -49,6 +50,7 @@ proxy-groups:
       - 埃及1
       - 埃及2
       - 922
+
   - name: Proxies
     type: select
     proxies:
@@ -57,6 +59,7 @@ proxy-groups:
       - 🇭🇰 香港 03丨1x HK
       - L2港HK41
       - 港HK44
+      - 香港自建节点
 rules:
   - DOMAIN-SUFFIX,ipapi.co,Googleplay
   - DOMAIN-SUFFIX,ip-api.com,Googleplay
